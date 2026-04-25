@@ -109,8 +109,14 @@ No additional private or hidden datasets are used.
 ## 🙋 FAQ
 
 **Q: Can this reveal the full dataset?**
+
 No. Bloom filters are one-way probabilistic structures.
+
 **Q: Are the results accurate?**
+
 Some are, some aren’t. False positives are expected.
+
 **Q: Why brute force?**
+
 Because there is no other practical way to inspect a bloom filter externally.
+
